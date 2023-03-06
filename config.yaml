@@ -1,0 +1,52 @@
+languageCode: "en-us"
+baseUrl: ""
+title: "deletecat_com"
+theme: "anubis"
+paginate: 10
+enableRobotsTXT: true
+
+menu:
+  main:
+  - identifier: posts
+    name: Archive
+    title: Archive
+    url: /posts/
+    weight: 0
+  - identifier: tags
+    name: Tags
+    title: Tags
+    url: /tags/
+    weight: 1
+
+
+params:
+  author: "Deletecat"
+  description: "A blog site by Deletecat - Built with gohugo"
+  dateFormat: "2006-01-02" # YYYY/MM/DD
+  paginationSinglePost: true
+  style: auto
+  readMore: false # show read more button
+  readNextPosts: 3  # show 3 related posts
+  disableSummary: true
+  copyCodeButton: true # true by default
+  rssAsSocialIcon: true
+  # utteranc.es support
+  utterancesRepo: "Deletecat/deletecat_com"  # mandatory
+  utterancesTheme: "" # optional
+  utterancesIssue: "" # optional
+  utterancesLabel: "" # optional
+  social:
+  - id: github
+    name: Deletecat
+  - id: mastodon
+    url: https://mas.to/@deletecat
+    rel: me
+  - id: reddit
+    name: kitcat976
+  - id: tumblr
+    url: https://tumblr.com/@Deletecat
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # enable raw HTML in Markdown
