@@ -43,8 +43,6 @@ params:
     rel: me
   - id: reddit
     name: kitcat976
-  - id: tumblr
-    url: https://tumblr.com/@Deletecat
 
 markup:
   goldmark:
