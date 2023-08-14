@@ -1,7 +1,7 @@
 body{
     background-color: slateblue;
     color:white;
-    width:50%;
+    width:60%;
     min-width: 300px;
     margin:auto;
     font-family:Arial, Helvetica, sans-serif;
@@ -39,4 +39,7 @@ footer{
 footer img{
     width:25px;
     height:25px;
+}
+.selected{
+    color:red;
 }
