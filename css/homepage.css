@@ -1,0 +1,57 @@
+body{
+    background-color:black;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:purple;
+    text-align: center;
+    color:white;
+    width: 50%;
+    min-width: 400px;
+    margin: auto;
+    margin-top:50px;
+    padding:10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    width:50%;
+    min-width:400px;
+}
+  
+nav ul li {
+    display: inline-block;
+}
+  
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+nav ul li a:hover {
+    background-color: #111;
+}
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:purple;
+    text-align: center;
+    color:white;
+    width: 50%;
+    min-width: 400px;
+    margin: auto;
+    padding:10px;
+}
+img{
+    width:32px;
+    height:32px;
+}
