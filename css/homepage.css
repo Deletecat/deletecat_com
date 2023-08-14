@@ -1,61 +1,42 @@
 body{
-    background-color:black;
+    background-color: slateblue;
+    color:white;
+    width:50%;
+    min-width: 300px;
+    margin:auto;
+    font-family:Arial, Helvetica, sans-serif;
 }
 header{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:purple;
-    text-align: center;
+    margin-top:40px;
+    text-align:center;
+}
+nav{
+    font-size: 20px;
+    height:30px;
+    width:280px;
+    margin:auto;
+    border: 2px;
+    border-color: black;
+    border-style: ridge;
+    background-color:navy;
+}
+nav a {
     color:white;
-    width: 50%;
-    min-width: 400px;
-    margin: auto;
-    margin-top:50px;
-    padding:10px;
+    text-decoration:none;
+    margin-left:10px;
+    margin-right:10px;
+}
+nav a:hover{
+    background-color:purple;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
-    width:50%;
-    min-width:400px;
+#content{
+    text-align:center;
 }
-  
-nav ul li {
-    display: inline-block;
+footer{
+    text-align:left;    
 }
-  
-nav ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 10px 10px;
-    font-size:16px;
-    text-decoration: none;
-}
-  
-  /* Change the link color to #111 (black) on hover */
-nav ul li a:hover {
-    background-color: #111;
-}
-section{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:purple;
-    text-align: center;
-    color:white;
-    width: 50%;
-    min-width: 400px;
-    margin:auto;
-    padding:10px;
-}
-#social{
-    float:right;
-}
-img{
-    width:32px;
-    height:32px;
+footer img{
+    width:25px;
+    height:25px;
 }
