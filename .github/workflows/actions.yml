@@ -9,8 +9,7 @@ jobs:
       - name: checkout repo content
         uses: actions/checkout@v3
         with:
-          persist-credentials: false
-          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: install dependencies
         run: |
@@ -20,7 +19,7 @@ jobs:
       - name: run scripts
         run: |
           cd ./firefish
-          wget https://github.com/Deletecat/firefish-rss-parsing/releases/download/v0.3/firefish.py
+          wget https://github.com/Deletecat/firefish-rss-parsing/releases/download/v0.4/firefish.py
           python3 firefish.py
       
       - name: Commit & Push changes
