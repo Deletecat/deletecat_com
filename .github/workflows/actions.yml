@@ -1,0 +1,28 @@
+name: Deploy site
+on:
+  schedule:
+    - cron: '15,45 * * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - name: install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install python3 python3-feedparser
+
+      - name: get and run python script
+        run: |
+          cd ./firefish
+          wget https://github.com/Deletecat/firefish-rss-parsing/releases/download/v0.3/firefish.py
+          python3 firefish.py
+            
+      - name: push site files if file exists
+        run: |
+          chmod +x rss.sh
+          ./rss.sh
