@@ -16,13 +16,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install python3 python3-feedparser
 
-      - name: get and run python script
+      - name: run scripts
         run: |
           cd ./firefish
           wget https://github.com/Deletecat/firefish-rss-parsing/releases/download/v0.3/firefish.py
           python3 firefish.py
-            
-      - name: push site files if file exists
-        run: |
           chmod +x rss.sh
           ./rss.sh
