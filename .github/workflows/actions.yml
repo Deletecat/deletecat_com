@@ -19,6 +19,7 @@ jobs:
       - name: run scripts
         run: |
           cd ./firefish
+          rm -rf firefish.py
           wget https://github.com/Deletecat/firefish-rss-parsing/releases/download/v0.4/firefish.py
           python3 firefish.py
       
