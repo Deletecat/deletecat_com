@@ -22,6 +22,7 @@ jobs:
           rm -rf firefish.py
           wget https://github.com/Deletecat/firefish-rss-parsing/releases/download/v0.5/firefish.py
           python3 firefish.py
+          rm -rf firefish.py
       
       - name: Commit & Push changes
         uses: actions-js/push@master
