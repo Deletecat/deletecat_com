@@ -41,6 +41,12 @@ footer img{
 #created{
     color:yellow;
 }
+#created a{
+    color:yellow;
+}
 #member{
+    color:mediumspringgreen;
+}
+#member a{
     color:mediumspringgreen;
 }
