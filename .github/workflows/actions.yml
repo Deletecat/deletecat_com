@@ -20,7 +20,7 @@ jobs:
         run: |
           cd ./firefish
           rm -rf firefish.py
-          wget https://github.com/Deletecat/firefish-rss-parsing/releases/download/0.6/firefish.py
+          wget https://github.com/Deletecat/firefish-rss-parsing/releases/download/0.7/firefish.py
           python3 firefish.py
           rm -rf firefish.py
       
