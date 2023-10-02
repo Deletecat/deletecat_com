@@ -3,15 +3,22 @@ body{
     background-color:whitesmoke;
     font-family:Arial, Helvetica, sans-serif;
 }
-img{
+.pfp{
     border:3px solid black;
     width:48px;
     height:48px;
     float:left;
     margin-right:10px;
+    margin-top:0px;
+}
+img{
+    width:25%;
+    height:25%;
+    margin-top:10px;
+    border:2px solid blueviolet;
 }
 h3{
-    margin-top:15px;
+    display:inline; 
 }
 h5{
     margin-top:5px;
