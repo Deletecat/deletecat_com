@@ -1,4 +1,4 @@
-name: Deploy site
+name: Pull Firefish Data
 on:
   schedule:
     - cron: '15,45 * * * *'
