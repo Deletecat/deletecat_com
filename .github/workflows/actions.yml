@@ -1,7 +1,6 @@
+#Temporary stopped D:
 name: Pull Firefish Data
-on:
-  schedule:
-    - cron: '15,45 * * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
