@@ -1,7 +1,57 @@
-@import url("./base_style.css");
-
-#firefish-feed iframe{
-    width:100%;
-    height:400px;
+body{
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
 }
-p{text-align:center;}
+header{
+    text-align:center;
+}
+#content{
+    text-align:left;
+    color:black;
+    padding:15px 15px 15px 15px;
+    background-color: white;
+}
+.projects{
+    width: 55%;
+    display: inline-block;
+    border-right: 1px solid black;
+    padding-right:15px;
+}
+.contact{
+    width:40%;
+    display: inline-block;
+    padding-left:15px;
+}
+footer{
+    clear:both;
+}
+.created{
+    color:purple;
+}
+.created a{
+    color:purple;
+}
+.member{
+    color:red;
+}
+.member a{
+    color:red;
+}
+.hiddenDivider{
+    display:none;
+}
+@media screen and (max-width:800px) {
+    .projects{
+        display:block;
+        width:100%;
+        padding:0px;
+    }   
+    .contact{
+        display:block;
+        width:100%;
+        padding:0px;
+    }
+    .hiddenDivider{
+        display:inline;
+    }
+}

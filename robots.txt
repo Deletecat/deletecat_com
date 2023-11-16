@@ -1,7 +1,4 @@
 User-agent: *
-Disallow: /posts/templates/*
-Disallow: /posts/css/*
-Disallow: /projects/css/*
 Disallow: /media/*
 Disallow: /firefish/*
 
