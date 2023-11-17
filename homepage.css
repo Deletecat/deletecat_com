@@ -37,6 +37,9 @@ footer{
 .member a{
     color:red;
 }
+.motd{
+    clear:both;
+}
 .hiddenDivider{
     display:none;
 }
