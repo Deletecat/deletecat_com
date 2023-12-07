@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /media/*
-Disallow: /firefish/*
-
-Sitemap: https://deletecat.com/sitemap.xml
